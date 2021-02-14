@@ -10,6 +10,18 @@
   --background-color: #fff;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+#container {
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
 header {
   height: 50vh;
   width: 100%;
@@ -77,12 +89,12 @@ header .text-area {
 
 header .text-area h1 {
   font-weight: 400;
-  font-size: clamp(2rem, 10vw, 4rem);
+  font-size: clamp(2rem, 10vw, 2.5rem);
 }
 
 header .text-area h2 {
   font-family: "Belgrano", serif;
-  font-size: clamp(0.5rem, 4vw, 3rem);
+  font-size: clamp(0.5rem, 4vw, 0.8rem);
   margin-bottom: 5px;
 }
 
